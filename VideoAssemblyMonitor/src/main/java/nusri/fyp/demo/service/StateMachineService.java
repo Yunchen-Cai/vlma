@@ -143,9 +143,17 @@ public class StateMachineService {
      */
     public StateMachine getStateMachineByName(String name) {
         List<Preset> all = getPresets();
-        StateMachine orDefault = stateMachineMap.getOrDefault(name, new StateMachine(all.get(0)));
+        StateMachine orDefault = stateMachineMap.getOrDefault(name, buildStateMachine(all.get(0)));
         stateMachineMap.put(name, orDefault);
         return orDefault;
+    }
+
+    private StateMachine buildStateMachine(Preset preset) {
+        return new StateMachine(
+                preset,
+                presetRuntimeService.loadSnapshot(preset.getName()),
+                configService.getQuotaConfig(preset.getName())
+        );
     }
 
     /**
@@ -186,8 +194,7 @@ public class StateMachineService {
         StateMachine stateMachineByName = getStateMachineByName(name);
         List<Alarm> alarms = new ArrayList<>();
         List<Node> nodes = stateMachineByName.getNodes();
-        String presetName = stateMachineByName.getPreset().getName();
-        QuotaConfig quotaConfig = configService.getQuotaConfig(presetName);
+        QuotaConfig quotaConfig = stateMachineByName.getQuotaConfig();
 
         if (quotaConfig.getQuotaMode().equalsIgnoreCase("disabled")) {
             return new ArrayList<>();
@@ -300,7 +307,7 @@ public class StateMachineService {
      * @see #stateMachineMap
      */
     public void start(String name, Preset preset) {
-        stateMachineMap.put(name, new StateMachine(preset));
+        stateMachineMap.put(name, buildStateMachine(preset));
     }
 
     /**
@@ -312,7 +319,7 @@ public class StateMachineService {
      * @see PresetRepository#findPresetByName(String)
      */
     public void start(String name, String preset) {
-        stateMachineMap.put(name, new StateMachine(presetRepository.findPresetByName(preset).get(0)));
+        stateMachineMap.put(name, buildStateMachine(presetRepository.findPresetByName(preset).get(0)));
     }
 
     /**
@@ -433,14 +440,7 @@ public class StateMachineService {
      * @see StateMachine#clearAndUpdateToTime(double, ConfigService, List, List, PresetRuntimeService)
      */
     public void clearAndUpdateToTime(String name, double timestamp) {
-
-        getStateMachineByName(name).clearAndUpdateToTime(
-                timestamp,
-                configService,
-                actionRepository.getAllActions(),
-                objectRepository.getAllObjects(),
-                presetRuntimeService
-        );
+        getStateMachineByName(name).clearAndUpdateToTime(timestamp);
     }
 
 }
