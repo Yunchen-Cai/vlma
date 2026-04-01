@@ -1,0 +1,91 @@
+
+python/src/offline_models/
+
+# ====================== Python 目录处理 ======================
+# 彻底忽略 python/ 目录中不需要的内容（只保留 src 中除 cache 外的代码）
+python/src/cache/
+python/src/**/cache/
+
+# Python 通用大文件和缓存（即使在 python/ 其他位置也忽略）
+python/__pycache__/
+python/*.pyc
+python/*.pyo
+python/venv/
+python/env/
+python/.env
+python/cache/
+python/output/
+python/data/
+python/checkpoints/
+python/logs/
+python/*.log
+python/*.pth
+python/*.bin
+python/*.dat
+python/*.safetensors
+python/*.ckpt
+
+# ====================== VideoAssemblyMonitor (Spring / Gradle 端) ======================
+# 忽略图片中显示的构建和缓存文件夹
+VideoAssemblyMonitor/build/
+VideoAssemblyMonitor/.gradle/
+VideoAssemblyMonitor/bin/
+VideoAssemblyMonitor/out/
+VideoAssemblyMonitor/**/build/
+VideoAssemblyMonitor/**/bin/
+VideoAssemblyMonitor/**/out/
+
+# Gradle wrapper 保留，但其他生成文件忽略
+!VideoAssemblyMonitor/gradle/wrapper/gradle-wrapper.jar
+
+# Spring Boot / STS / IntelliJ / NetBeans 等 IDE 和缓存
+VideoAssemblyMonitor/.apt_generated
+VideoAssemblyMonitor/.classpath
+VideoAssemblyMonitor/.factorypath
+VideoAssemblyMonitor/.project
+VideoAssemblyMonitor/.settings
+VideoAssemblyMonitor/.springBeans
+VideoAssemblyMonitor/.sts4-cache
+VideoAssemblyMonitor/.idea/
+VideoAssemblyMonitor/*.iws
+VideoAssemblyMonitor/*.iml
+VideoAssemblyMonitor/*.ipr
+
+# 其他常见 Spring/Gradle 忽略
+VideoAssemblyMonitor/*.jar
+VideoAssemblyMonitor/*.war
+VideoAssemblyMonitor/*.log
+VideoAssemblyMonitor/logs/
+VideoAssemblyMonitor/target/
+
+# ====================== VideoAssemblyMonitorWeb (Web 端) ======================
+# 忽略所有以 . 开头的隐藏文件夹（.idea、.vs 等）
+VideoAssemblyMonitorWeb/.*/
+
+# 其他 Web 端常见忽略（构建和依赖）
+VideoAssemblyMonitorWeb/dist/
+VideoAssemblyMonitorWeb/build/
+VideoAssemblyMonitorWeb/node_modules/
+VideoAssemblyMonitorWeb/*.log
+
+# ====================== 项目根目录通用忽略 ======================
+# 系统和临时文件
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+
+# 根目录下通用缓存
+cache/
+output/
+logs/
+*.log
+
+# 防止以后再出现大文件问题
+*.pth
+*.bin
+*.dat
+*.safetensors
+*.ckpt
+*.h5
+*.onnx

@@ -1,0 +1,78 @@
+{
+  "info": {
+    "name": "VLM Audit Test (Improved)",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Normal Cases",
+      "item": [
+        {
+          "name": "Normal - Screw OK",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"events\": [\n    {\"action\": \"grasp\", \"object\": \"screw_A\"},\n    {\"action\": \"place\", \"object\": \"panel\"},\n    {\"action\": \"tighten\", \"object\": \"screw_A\"}\n  ],\n  \"frames\": [\n    \"https://raw.githubusercontent.com/napoleon737/assembly-test-images/main/normal/frame_0464.png\"\n  ],\n  \"metadata\": {\n    \"prompt_hint\": \"请基于事件和图像完成：1. 动作识别（逐步列出） 2. 判断是否正确（若错误给出错误类别） 3. 给出一句中文建议。\"\n  }\n}"
+            },
+            "url": {
+              "raw": "http://localhost:8000/vlm/audit",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "8000",
+              "path": ["vlm", "audit"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Abnormal Cases",
+      "item": [
+        {
+          "name": "Abnormal - Wrong Order",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"events\": [\n    {\"action\": \"tighten\", \"object\": \"screw_A\"},\n    {\"action\": \"place\", \"object\": \"panel\"}\n  ],\n  \"frames\": [\n    \"https://raw.githubusercontent.com/napoleon737/assembly-test-images/main/abnormal/2.png\"\n  ],\n  \"metadata\": {\n    \"prompt_hint\": \"请指出装配顺序是否有问题，若有错误，请标注为 wrong_order，并给出改进建议。\"\n  }\n}"
+            },
+            "url": {
+              "raw": "http://localhost:8000/vlm/audit",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "8000",
+              "path": ["vlm", "audit"]
+            }
+          }
+        },
+        {
+          "name": "Abnormal - Wrong Part",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"events\": [\n    {\"action\": \"grasp\", \"object\": \"screw_B\"},\n    {\"action\": \"tighten\", \"object\": \"screw_B\"}\n  ],\n  \"frames\": [\n    \"https://raw.githubusercontent.com/napoleon737/assembly-test-images/main/abnormal/5.png\"\n  ],\n  \"metadata\": {\n    \"prompt_hint\": \"请检测是否使用了错误零件，若是，请标注为 wrong_part，并给出改进建议。\"\n  }\n}"
+            },
+            "url": {
+              "raw": "http://localhost:8000/vlm/audit",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "8000",
+              "path": ["vlm", "audit"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

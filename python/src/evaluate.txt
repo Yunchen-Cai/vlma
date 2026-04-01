@@ -1,0 +1,8 @@
+==============================
+EVALUATION REPORT
+Model: Few-shot (LoRA)
+Tool Accuracy:   94.50%
+Action Accuracy: 91.93%
+Part Accuracy:   94.68%
+==============================
+
