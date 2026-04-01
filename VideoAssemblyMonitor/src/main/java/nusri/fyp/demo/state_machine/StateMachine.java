@@ -9,8 +9,6 @@ import nusri.fyp.demo.entity.Preset;
 import nusri.fyp.demo.entity.PresetNode;
 import nusri.fyp.demo.entity.QuotaConfig;
 import nusri.fyp.demo.roboflow.data.entity.workflow.SinglePrediction;
-import nusri.fyp.demo.service.ConfigService;
-import nusri.fyp.demo.service.PresetRuntimeService;
 
 import java.time.LocalDateTime;
 import java.time.ZoneOffset;
@@ -73,6 +71,8 @@ public class StateMachine {
      * The {@link Preset} associated with this StateMachine, which contains configuration and process information.
      */
     private final Preset preset;
+    private final QuotaConfig quotaConfig;
+    private final boolean quotaDisabled;
 
     private final Map<String, Boolean> conditions = new HashMap<>();
 
@@ -81,27 +81,42 @@ public class StateMachine {
      */
     private final LocalDateTime startTime;
 
-    PresetRuntimeSnapshot snapshot;
+    private final PresetRuntimeSnapshot snapshot;
 
     /**
      * Constructs a StateMachine based on the provided {@link Preset}.
      *
      * @param preset The preset containing the configuration for the state machine.
      */
-    public StateMachine(Preset preset) {
+    public StateMachine(Preset preset, PresetRuntimeSnapshot snapshot, QuotaConfig quotaConfig) {
         this.preset = preset;
-        clearConditions();
+        this.snapshot = snapshot;
+        this.quotaConfig = quotaConfig;
+        this.quotaDisabled = quotaConfig.getQuotaMode().equalsIgnoreCase("disabled");
+        initConditions();
         this.startTime = LocalDateTime.now();
+        initNodesFromSnapshot(snapshot);
+    }
 
-        // Convert preset nodes to Node objects and add them to the nodes list
-        if (preset.getNodes() != null) {
-            nodes.addAll(preset.getNodes().stream().map(PresetNode::toNode).toList());
+    private void initNodesFromSnapshot(PresetRuntimeSnapshot snapshot) {
+        Map<Integer, Node> nodeMap = new HashMap<>();
+        for (NodeRuntimeSnapshot item : snapshot.nodes()) {
+            Node node = new Node(item.number(), item.realQuota(), item.name(), new ArrayList<>(item.actions()), new HashSet<>());
+            nodeMap.put(item.number(), node);
+            nodes.add(node);
+        }
+        for (NodeRuntimeSnapshot item : snapshot.nodes()) {
+            Node node = nodeMap.get(item.number());
+            item.parentNumbers().stream()
+                    .map(nodeMap::get)
+                    .filter(Objects::nonNull)
+                    .forEach(node.getParents()::add);
         }
     }
 
-    private void clearConditions() {
-        preset.getNodes().stream()
-                .map(PresetNode::getCondition)
+    private void initConditions() {
+        snapshot.nodes().stream()
+                .map(NodeRuntimeSnapshot::condition)
                 .filter(str -> !str.contains("N/A"))
                 .forEach(condition -> conditions.put(condition, false));
     }
@@ -136,16 +151,12 @@ public class StateMachine {
      * @param configService The configuration service used to access Quota settings.
      */
     public void updateStateProbability(List<AbstractActionObservation> obs,
-                                       double timestamp,
-                                       ConfigService configService,
-                                       PresetRuntimeSnapshot snapshot) {
-        this.snapshot = snapshot;
+                                       double timestamp) {
         obs = new ArrayList<>(obs);
-        boolean isQuotaDisabled = isDisabled(configService, snapshot);
+        boolean isQuotaDisabled = quotaDisabled;
 
 
         if (!isQuotaDisabled) {
-            QuotaConfig quotaConfig = configService.getQuotaConfig(snapshot);
             final double w = (timestamp - lastUpdate) / 1000;
             // 过大或为0则直接return.
             lastUpdate = timestamp;
@@ -160,7 +171,7 @@ public class StateMachine {
 
             if (obs.isEmpty()) {
                 handling.setProbability(1.0);
-                handling.applyTime(w, configService, snapshot);
+                handling.applyTime(w, quotaConfig);
                 return;
             }
 
@@ -225,7 +236,7 @@ public class StateMachine {
                         int fullCount = 0;
                         for (Node node : npByS) {
                             double a = final_remain * (node.F(quotaConfig) / fnCount);
-                            double b = (node.getCalculateQuota(configService, snapshot) - node.T(configService, snapshot)) / w - node.P();
+                            double b = (node.getCalculateQuota(quotaConfig) - node.T(quotaConfig)) / w - node.P();
                             double dp = max(min(a, b), 0);
                             fullCount = (dp == b || (dp <= 0.01))? 1: 0;
                             remain -= dp;
@@ -244,8 +255,8 @@ public class StateMachine {
                 else if (node.P() >= 1) node.setProbability(1.0);
             }
             log.debug("Probabilities of Predictions is {}", nodes.stream().map(n -> String.valueOf(n.P())).collect(Collectors.joining(", ")));
-            nodes.forEach(node -> node.applyTime(w, configService, snapshot));
-            handling.applyTime(w, configService, snapshot);
+            nodes.forEach(node -> node.applyTime(w, quotaConfig));
+            handling.applyTime(w, quotaConfig);
             log.debug("Visit P of Predictions is {}", nodes.stream().map(n -> String.valueOf(n.realC())).collect(Collectors.joining(", ")));
             log.debug("D of Predictions is {}", nodes.stream().map(n -> String.valueOf(n.D(quotaConfig))).collect(Collectors.joining(", ")));
             log.debug("E of Predictions is {}", nodes.stream().map(n -> String.valueOf(n.E(quotaConfig))).collect(Collectors.joining(", ")));
@@ -269,7 +280,7 @@ public class StateMachine {
      * @param objects              The list of possible objects for the current operation.
      * @param presetRuntimeService presetRuntimeService
      */
-    public void clearAndUpdateToTime(double tillTimestamp, ConfigService configService, List<String> actions, List<String> objects, PresetRuntimeService presetRuntimeService) {
+    public void clearAndUpdateToTime(double tillTimestamp) {
 
         log.info("clearAndUpdateToTime, observation size: {}", observations.size());
 
@@ -279,42 +290,12 @@ public class StateMachine {
 
         long startSec = startTime.toEpochSecond(ZoneOffset.of("+8"));
 
-        PresetRuntimeSnapshot snapshot = presetRuntimeService.loadSnapshot(this.getPreset().getName());
-
-        boolean isQuotaDisabled = isDisabled(configService, snapshot);
-
-        if (!isQuotaDisabled) {
+        if (!quotaDisabled) {
             observations.entrySet().stream()
                     .sorted(Map.Entry.comparingByKey(Comparator.comparing(k -> k)))
                     .filter(e -> ((e.getKey() > startSec) ? (e.getKey() - startSec) : e.getKey()) <= tillTimestamp * 1000)
-                    .forEach(e -> this.updateStateProbability(e.getValue(), e.getKey(), configService, snapshot));
+                    .forEach(e -> this.updateStateProbability(e.getValue(), e.getKey()));
 
-        }
-    }
-
-    /**
-     * A cache to store the status of whether Quota is disabled for a given preset.
-     */
-    public static final Map<String, Boolean> cache = new HashMap<>();
-
-    /**
-     * Checks if the Quota for the given preset is disabled by consulting the configuration service.
-     * The result is cached for efficiency.
-     *
-     * @param configService The configuration service to access Quota settings.
-     * @param snapshot      Provide the name of the preset to check.
-     * @return {@code true} if Quota is disabled for the specified preset, {@code false} otherwise.
-     */
-    public static boolean isDisabled(ConfigService configService, PresetRuntimeSnapshot snapshot) {
-        String presetName = snapshot.presetName();
-        if (cache.containsKey(presetName)) {
-            return cache.get(presetName);
-        } else {
-            boolean disabled = configService.getQuotaConfig(snapshot)
-                    .getQuotaMode()
-                    .equalsIgnoreCase("disabled");
-            cache.put(presetName, disabled);
-            return disabled;
         }
     }
 
@@ -323,7 +304,6 @@ public class StateMachine {
      * If you want to clear the visit probability as well, you can do so by calling {@link Node#clear()}.
      */
     private void clearP() {
-        clearConditions();
         handling.setProbability(0.0);
         nodes.forEach(n -> {
             n.setProbability(0.0);
@@ -358,11 +338,11 @@ public class StateMachine {
      *  - Optionally break ties using P()
      *  - Skip handling nodes
      */
-    public PresetNode getMostProbableNextState(QuotaConfig quotaConfig) {
+    public PresetNode getMostProbableNextState() {
         Node best = nodes.stream()
                 .filter(n -> !n.isHandlingNode())
-                .filter(n -> !n.isDone(quotaConfig))                // must be unfinished
-                .max(Comparator.comparingDouble(n -> nextScore(n, quotaConfig)))
+                .filter(n -> !n.isDone(this.quotaConfig))                // must be unfinished
+                .max(Comparator.comparingDouble(this::nextScore))
                 .orElse(handling);                                  // fallback (idle/handling)
         return PresetNode.getPresetNode(preset, best);
     }
@@ -371,8 +351,8 @@ public class StateMachine {
      * Score for choosing the next node.
      * Higher is better.
      */
-    private double nextScore(Node n, QuotaConfig quotaConfig) {
-        double F = n.F(quotaConfig);        // readiness based on parents completion (0..1)
+    private double nextScore(Node n) {
+        double F = n.F(this.quotaConfig);        // readiness based on parents completion (0..1)
         double C = n.C();                   // completion of this node (0..1)
         double P = n.P();                   // current observation prob (>=0)
 

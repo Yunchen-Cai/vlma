@@ -190,15 +190,16 @@ public class ReviewService {
     public TreeMap<Long, PresetNodeDto> getTimelineOfProc(StateMachineLog stateMachineLog) {
         log.debug("getMatchingPresetNodes: {}", stateMachineLog.getMatchingPresetNodes());
 
+        PresetRuntimeSnapshot snapshot = presetRuntimeService.loadSnapshot(stateMachineLog.getPreset().getName());
+        QuotaConfig quotaConfig = configService.getQuotaConfig(snapshot);
+
         // Initialize state machine
-        StateMachine fsm = new StateMachine(stateMachineLog.getPreset());
+        StateMachine fsm = new StateMachine(stateMachineLog.getPreset(), snapshot, quotaConfig);
         TreeMap<Long, List<AbstractActionObservation>> obsList = new TreeMap<>(stateMachineLog.getObservations());
         fsm.setObservations(obsList);
 
-        PresetRuntimeSnapshot snapshot = presetRuntimeService.loadSnapshot(stateMachineLog.getPreset().getName());
-
         // Check if Quota is enabled
-        String quotaMode = configService.getQuotaConfig(snapshot.presetName()).getQuotaMode();
+        String quotaMode = quotaConfig.getQuotaMode();
         boolean isQuotaDisabled = "disabled".equalsIgnoreCase(quotaMode);
 
         TreeMap<Long, NodeRuntimeSnapshot> timeline = new TreeMap<>();
@@ -210,7 +211,7 @@ public class ReviewService {
                 double timestampSec = timestampMs.doubleValue();
 
                 // Call the update method for each observation
-                fsm.updateStateProbability(e.getValue(), timestampSec, configService, snapshot);
+                fsm.updateStateProbability(e.getValue(), timestampSec);
 
                 // Get the most probable state (PresetNode)
                 NodeRuntimeSnapshot mostProbable = fsm.getMostProbableState();
@@ -244,8 +245,6 @@ public class ReviewService {
                     log.error(e.getMessage());
                 }
             }
-            QuotaConfig quotaConfig = configService.getQuotaConfig(snapshot.presetName());
-
             TreeMap<Long, PresetNodeDto> dtoResult = new TreeMap<>();
             result.forEach((timestamp, node1) ->
                     dtoResult.put(timestamp, new PresetNodeDto(node1, quotaConfig))
