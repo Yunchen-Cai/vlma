@@ -1,9 +1,7 @@
 package nusri.fyp.demo.service;
 
 import lombok.extern.slf4j.Slf4j;
-import nusri.fyp.demo.dto.PresetRuntimeSnapshot;
-import nusri.fyp.demo.entity.PresetNode;
-import nusri.fyp.demo.entity.QuotaConfig;
+import nusri.fyp.demo.dto.NodeRuntimeSnapshot;
 import nusri.fyp.demo.repository.RoboflowWorkflowRepository;
 import nusri.fyp.demo.service.img_sender.ImageSender;
 import nusri.fyp.demo.service.img_sender.ImageSenderService;
@@ -32,17 +30,15 @@ public class VideoService {
     private final StateMachineService stateMachineService;
     private final RoboflowWorkflowRepository roboflowWorkflowRepository;
     private final ImageSenderService imageSenderService;
-    private final PresetRuntimeService presetRuntimeService;
 
     public VideoService(ConfigService configService,
                         StateMachineService stateMachineService,
                         RoboflowWorkflowRepository roboflowWorkflowRepository,
-                        ImageSenderService imageSenderService, PresetRuntimeService presetRuntimeService) {
+                        ImageSenderService imageSenderService) {
         this.configService = configService;
         this.stateMachineService = stateMachineService;
         this.roboflowWorkflowRepository = roboflowWorkflowRepository;
         this.imageSenderService = imageSenderService;
-        this.presetRuntimeService = presetRuntimeService;
     }
 
     public ResponseEntity<?> processVideo(String user, String presetName) {
@@ -62,8 +58,6 @@ public class VideoService {
         stateMachine.setObservations(new TreeMap<>());
 
         AtomicReference<Map<Long, List<AbstractActionObservation>>> observations = new AtomicReference<>();
-        PresetRuntimeSnapshot snapshot = presetRuntimeService.loadSnapshot(presetName);
-
         Thread thread = new Thread(() -> {
             try {
                 Map<Long, List<? extends AbstractActionObservation>> longListMap =
@@ -72,8 +66,7 @@ public class VideoService {
                                 user,
                                 config,
                                 imageSenderService.getUseImageSender(presetName),
-                                stateMachine,
-                                snapshot
+                                stateMachine
                         );
 
                 Map<Long, List<AbstractActionObservation>> listMap = new TreeMap<>();
@@ -167,11 +160,10 @@ public class VideoService {
         StateMachine stateMachineByName = stateMachineService.getStateMachineByName(user);
         String presetName = stateMachineByName.getPreset().getName();
         String modelWithConfig = configService.getUseModel(presetName);
-        QuotaConfig quotaConfig = configService.getQuotaConfig(presetName);
         Map<String, String> config = buildConfig(modelWithConfig);
 
-        PresetNode mostProbableNextState = stateMachineByName.getMostProbableNextState(quotaConfig);
-        List<String> actions = mostProbableNextState.getActions();
+        NodeRuntimeSnapshot mostProbableNextState = stateMachineByName.getMostProbableNextStateSnapshot();
+        List<String> actions = mostProbableNextState.actions();
 
         List<String> expectedTools = new ArrayList<>();
         List<String> expectedActions = new ArrayList<>();
@@ -192,7 +184,7 @@ public class VideoService {
         config.put("expectedAction", expectedActions.toString());
 
         // 单图链路这里你后续也可以改回真实 condition
-        config.put("expectedCondition", mostProbableNextState.getCondition());
+        config.put("expectedCondition", mostProbableNextState.condition());
 
         imageSenderService.processImg(img, timestamp, stateMachineByName, config);
         return true;

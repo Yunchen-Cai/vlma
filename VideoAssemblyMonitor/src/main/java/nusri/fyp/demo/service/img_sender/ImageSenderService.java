@@ -2,12 +2,9 @@ package nusri.fyp.demo.service.img_sender;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
-import nusri.fyp.demo.dto.PresetRuntimeSnapshot;
-import nusri.fyp.demo.entity.PresetNode;
-import nusri.fyp.demo.entity.QuotaConfig;
+import nusri.fyp.demo.dto.NodeRuntimeSnapshot;
 import nusri.fyp.demo.repository.PythonServerRepository;
 import nusri.fyp.demo.service.ConfigService;
-import nusri.fyp.demo.service.PresetRuntimeService;
 import nusri.fyp.demo.service.img_sender.python.ImageSenderOfPython;
 import nusri.fyp.demo.service.img_sender.roboflow.ImageSenderOfRoboflow;
 import nusri.fyp.demo.service.img_sender.roboflow.RoboflowService;
@@ -36,17 +33,15 @@ public class ImageSenderService {
 
     private final ImageSenderOfRoboflow imageSenderOfRoboflow;
     private final ImageSenderOfPython imageSenderOfPython;
-    private final PresetRuntimeService presetRuntimeService;
 
     public ImageSenderService(ConfigService configService,
                               RoboflowService roboflowService,
                               ObjectMapper objectMapper,
-                              PythonServerRepository pythonServerRepository, PresetRuntimeService presetRuntimeService) {
+                              PythonServerRepository pythonServerRepository) {
         this.configService = configService;
         this.imageSenderOfRoboflow = new ImageSenderOfRoboflow(roboflowService);
         this.imageSenderOfPython = new ImageSenderOfPython(this, objectMapper, pythonServerRepository);
         this.roboflowService = roboflowService;
-        this.presetRuntimeService = presetRuntimeService;
     }
 
     // 关键修改：
@@ -59,8 +54,7 @@ public class ImageSenderService {
             String user,
             Map<String, String> config,
             ImageSender imageSender,
-            StateMachine stateMachine,
-            PresetRuntimeSnapshot snapshot
+            StateMachine stateMachine
     ) throws IOException {
         File dir = new File(configService.getVideoPath());
         if (!dir.exists()) {
@@ -134,7 +128,7 @@ public class ImageSenderService {
                             actionObs.stream().map(o -> (AbstractActionObservation) o).toList();
 
                     stateMachine.getObservations().put(frameTimestamp, typedList);
-                    stateMachine.updateStateProbability(typedList, (double) frameTimestamp, configService, snapshot);
+                    stateMachine.updateStateProbability(typedList, (double) frameTimestamp);
 
                     frameIndex++;
                 } finally {
@@ -155,14 +149,13 @@ public class ImageSenderService {
                 return null;
             }
 
-            QuotaConfig quotaConfig = configService.getQuotaConfig(stateMachine.getSnapshot());
-            PresetNode next = stateMachine.getMostProbableNextState(quotaConfig);
+            NodeRuntimeSnapshot next = stateMachine.getMostProbableNextStateSnapshot();
 
             if (next == null) {
                 return null;
             }
 
-            return next.getCondition();
+            return next.condition();
         } catch (Exception e) {
             log.warn("Failed to resolve expected condition: {}", e.getMessage());
             return null;
@@ -173,8 +166,7 @@ public class ImageSenderService {
                            String timestamp,
                            StateMachine stateMachine,
                            Map<String, String> config) {
-        PresetRuntimeSnapshot snapshot = presetRuntimeService.loadSnapshot(stateMachine.getPreset().getName());
-        ImageSender imageSender = getUseImageSender(snapshot.presetName());
+        ImageSender imageSender = getUseImageSender(stateMachine.getSnapshot().presetName());
 
         List<? extends AbstractActionObservation> actionObservations = imageSender.sendFrame(img, config);
 
@@ -187,7 +179,7 @@ public class ImageSenderService {
         existingObs.put(timeKey, typedList);
 
         stateMachine.setObservations(existingObs);
-        stateMachine.updateStateProbability(typedList, Double.parseDouble(timestamp), configService, snapshot);
+        stateMachine.updateStateProbability(typedList, Double.parseDouble(timestamp));
     }
 
     public ImageSender getUseImageSender(String presetName) {

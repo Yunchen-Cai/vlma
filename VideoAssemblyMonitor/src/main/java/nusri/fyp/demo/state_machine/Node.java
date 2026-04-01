@@ -234,6 +234,10 @@ public class Node {
         return this.visitProbability * getCalculateQuota(configService, snapshot);
     }
 
+    public double T(QuotaConfig quotaConfig) {
+        return this.visitProbability * getCalculateQuota(quotaConfig);
+    }
+
     /**
      * Calculates the timeout probability for the node.
      *
@@ -262,6 +266,10 @@ public class Node {
      */
     public void applyTime(double w, ConfigService configService, PresetRuntimeSnapshot snapshot) {
         this.visitProbability += this.probability * max(w, 0) / getCalculateQuota(configService, snapshot);
+    }
+
+    public void applyTime(double w, QuotaConfig quotaConfig) {
+        this.visitProbability += this.probability * max(w, 0) / getCalculateQuota(quotaConfig);
     }
 
     /**
