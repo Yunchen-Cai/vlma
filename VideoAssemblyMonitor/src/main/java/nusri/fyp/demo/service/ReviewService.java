@@ -282,8 +282,6 @@ public class ReviewService {
             filtered.put(currentTime, entry.getValue());
         }
 
-        QuotaConfig quotaConfig = configService.getQuotaConfig(snapshot.presetName());
-
         return filtered.entrySet().stream()
                 .collect(Collectors.toMap(
                         Map.Entry::getKey,

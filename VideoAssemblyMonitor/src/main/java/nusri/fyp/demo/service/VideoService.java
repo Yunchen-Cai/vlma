@@ -1,7 +1,8 @@
 package nusri.fyp.demo.service;
 
 import lombok.extern.slf4j.Slf4j;
-import nusri.fyp.demo.dto.NodeRuntimeSnapshot;
+import nusri.fyp.demo.entity.PresetNode;
+import nusri.fyp.demo.entity.QuotaConfig;
 import nusri.fyp.demo.repository.RoboflowWorkflowRepository;
 import nusri.fyp.demo.service.img_sender.ImageSender;
 import nusri.fyp.demo.service.img_sender.ImageSenderService;
@@ -160,10 +161,11 @@ public class VideoService {
         StateMachine stateMachineByName = stateMachineService.getStateMachineByName(user);
         String presetName = stateMachineByName.getSnapshot().presetName();
         String modelWithConfig = configService.getUseModel(presetName);
+        QuotaConfig quotaConfig = stateMachineByName.getQuotaConfig();
         Map<String, String> config = buildConfig(modelWithConfig);
 
-        NodeRuntimeSnapshot mostProbableNextState = stateMachineByName.getMostProbableNextStateSnapshot();
-        List<String> actions = mostProbableNextState.actions();
+        PresetNode mostProbableNextState = stateMachineByName.getMostProbableNextState();
+        List<String> actions = mostProbableNextState.getActions();
 
         List<String> expectedTools = new ArrayList<>();
         List<String> expectedActions = new ArrayList<>();
