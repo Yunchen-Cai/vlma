@@ -2,7 +2,7 @@ package nusri.fyp.demo.service.img_sender;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
-import nusri.fyp.demo.entity.PresetNode;
+import nusri.fyp.demo.dto.NodeRuntimeSnapshot;
 import nusri.fyp.demo.repository.PythonServerRepository;
 import nusri.fyp.demo.service.ConfigService;
 import nusri.fyp.demo.service.img_sender.python.ImageSenderOfPython;
@@ -145,17 +145,17 @@ public class ImageSenderService {
 
     private String resolveExpectedCondition(StateMachine stateMachine) {
         try {
-            if (stateMachine == null || stateMachine.getPreset() == null) {
+            if (stateMachine == null || stateMachine.getSnapshot() == null) {
                 return null;
             }
 
-            PresetNode next = stateMachine.getMostProbableNextState();
+            NodeRuntimeSnapshot next = stateMachine.getMostProbableNextStateSnapshot();
 
             if (next == null) {
                 return null;
             }
 
-            return next.getCondition();
+            return next.condition();
         } catch (Exception e) {
             log.warn("Failed to resolve expected condition: {}", e.getMessage());
             return null;

@@ -72,7 +72,6 @@ public class StateMachine {
      */
     private final Preset preset;
     private final QuotaConfig quotaConfig;
-    private final boolean quotaDisabled;
 
     private final Map<String, Boolean> conditions = new HashMap<>();
 
@@ -92,7 +91,6 @@ public class StateMachine {
         this.preset = preset;
         this.snapshot = snapshot;
         this.quotaConfig = quotaConfig;
-        this.quotaDisabled = quotaConfig.getQuotaMode().equalsIgnoreCase("disabled");
         initConditions();
         this.startTime = LocalDateTime.now();
         initNodesFromSnapshot(snapshot);
@@ -153,10 +151,7 @@ public class StateMachine {
     public void updateStateProbability(List<AbstractActionObservation> obs,
                                        double timestamp) {
         obs = new ArrayList<>(obs);
-        boolean isQuotaDisabled = quotaDisabled;
-
-
-        if (!isQuotaDisabled) {
+        {
             final double w = (timestamp - lastUpdate) / 1000;
             // 过大或为0则直接return.
             lastUpdate = timestamp;
@@ -263,8 +258,6 @@ public class StateMachine {
             log.debug("UQ of Predictions is {}", nodes.stream().map(n -> String.valueOf(n.getUpperQuota(quotaConfig))).collect(Collectors.joining(", ")));
             log.debug("LQ of Predictions is {}", nodes.stream().map(n -> String.valueOf(n.getLowerQuota(quotaConfig))).collect(Collectors.joining(", ")));
 
-        } else {
-            log.debug("Quota disabled -> Skip real-time update.");
         }
     }
 
@@ -290,13 +283,10 @@ public class StateMachine {
 
         long startSec = startTime.toEpochSecond(ZoneOffset.of("+8"));
 
-        if (!quotaDisabled) {
-            observations.entrySet().stream()
-                    .sorted(Map.Entry.comparingByKey(Comparator.comparing(k -> k)))
-                    .filter(e -> ((e.getKey() > startSec) ? (e.getKey() - startSec) : e.getKey()) <= tillTimestamp * 1000)
-                    .forEach(e -> this.updateStateProbability(e.getValue(), e.getKey()));
-
-        }
+        observations.entrySet().stream()
+                .sorted(Map.Entry.comparingByKey(Comparator.comparing(k -> k)))
+                .filter(e -> ((e.getKey() > startSec) ? (e.getKey() - startSec) : e.getKey()) <= tillTimestamp * 1000)
+                .forEach(e -> this.updateStateProbability(e.getValue(), e.getKey()));
     }
 
     /**
@@ -338,13 +328,13 @@ public class StateMachine {
      *  - Optionally break ties using P()
      *  - Skip handling nodes
      */
-    public PresetNode getMostProbableNextState() {
+    public NodeRuntimeSnapshot getMostProbableNextStateSnapshot() {
         Node best = nodes.stream()
                 .filter(n -> !n.isHandlingNode())
                 .filter(n -> !n.isDone(this.quotaConfig))                // must be unfinished
                 .max(Comparator.comparingDouble(this::nextScore))
                 .orElse(handling);                                  // fallback (idle/handling)
-        return PresetNode.getPresetNode(preset, best);
+        return PresetNode.getPresetNode(best, snapshot);
     }
 
     /**

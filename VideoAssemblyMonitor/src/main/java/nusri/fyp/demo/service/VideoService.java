@@ -159,7 +159,7 @@ public class VideoService {
         }
 
         StateMachine stateMachineByName = stateMachineService.getStateMachineByName(user);
-        String presetName = stateMachineByName.getPreset().getName();
+        String presetName = stateMachineByName.getSnapshot().presetName();
         String modelWithConfig = configService.getUseModel(presetName);
         QuotaConfig quotaConfig = stateMachineByName.getQuotaConfig();
         Map<String, String> config = buildConfig(modelWithConfig);
@@ -186,7 +186,7 @@ public class VideoService {
         config.put("expectedAction", expectedActions.toString());
 
         // 单图链路这里你后续也可以改回真实 condition
-        config.put("expectedCondition", mostProbableNextState.getCondition());
+        config.put("expectedCondition", mostProbableNextState.condition());
 
         imageSenderService.processImg(img, timestamp, stateMachineByName, config);
         return true;
