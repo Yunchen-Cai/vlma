@@ -145,7 +145,7 @@ public class ImageSenderService {
 
     private String resolveExpectedCondition(StateMachine stateMachine) {
         try {
-            if (stateMachine == null || stateMachine.getPreset() == null) {
+            if (stateMachine == null || stateMachine.getSnapshot() == null) {
                 return null;
             }
 

@@ -72,7 +72,6 @@ public class StateMachine {
      */
     private final Preset preset;
     private final QuotaConfig quotaConfig;
-    private final boolean quotaDisabled;
 
     private final Map<String, Boolean> conditions = new HashMap<>();
 
@@ -92,7 +91,6 @@ public class StateMachine {
         this.preset = preset;
         this.snapshot = snapshot;
         this.quotaConfig = quotaConfig;
-        this.quotaDisabled = quotaConfig.getQuotaMode().equalsIgnoreCase("disabled");
         initConditions();
         this.startTime = LocalDateTime.now();
         initNodesFromSnapshot(snapshot);

@@ -158,7 +158,7 @@ public class VideoService {
         }
 
         StateMachine stateMachineByName = stateMachineService.getStateMachineByName(user);
-        String presetName = stateMachineByName.getPreset().getName();
+        String presetName = stateMachineByName.getSnapshot().presetName();
         String modelWithConfig = configService.getUseModel(presetName);
         Map<String, String> config = buildConfig(modelWithConfig);
 
