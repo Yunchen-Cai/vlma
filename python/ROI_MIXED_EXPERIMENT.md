@@ -10,6 +10,28 @@ The main research question is:
 
 The experiment focuses on feature perception before adding stronger process-level constraints such as a finite state machine (FSM).
 
+## Training Strategy
+
+For the new main paper experiments, the preferred strategy is no longer LoRA or low-bit compressed fine-tuning. The user now has access to `8 x H200` GPUs, so the main ROI experiment line should be trained as full supervised fine-tuning (full SFT) from the `Qwen2.5-VL-7B-Instruct` base model.
+
+This change is important for three reasons:
+
+```text
+The training distribution is cleaner and more consistent.
+The experimental definition is easier to explain in a paper.
+The results are not confounded by older LoRA-specific or quantization-specific choices.
+```
+
+Therefore:
+
+```text
+Main paper experiments:
+  full SFT from Qwen2.5-VL-7B-Instruct
+
+Legacy experiments:
+  older LoRA checkpoints kept only for comparison, reference, or reproduction
+```
+
 ## Core Hypothesis
 
 Full-image training teaches the model global assembly context, but it may not reliably attend to small local cues such as hole alignment, edge gaps, gear seating, or tool-part contact. ROI samples expose these cues at a larger visual scale and reduce background distraction.
@@ -395,6 +417,18 @@ Purpose:
 Tests whether the model can preserve global context while learning local completion cues.
 ```
 
+### Main Training Recommendation
+
+For the publishable ROI line, these three dataset variants should all be trained from the same `Qwen2.5-VL-7B-Instruct` initialization with full SFT:
+
+```text
+Full-only
+ROI-only
+Full+ROI mixed
+```
+
+Avoid mixing these new paper results with earlier LoRA-based experiments when reporting the main claims. The old LoRA runs may still be cited as preliminary baselines or engineering pilots, but the new core tables and figures should come from the unified full-SFT setup.
+
 ## Evaluation Sets
 
 Use separate evaluation files:
@@ -617,6 +651,10 @@ All variants use the same structured target format:
 
 This constrained output format enables direct metric computation and reduces ambiguity in parsing model predictions.
 
+### Training Regime
+
+For the final paper experiments, all three dataset variants should be trained with full supervised fine-tuning from the same `Qwen2.5-VL-7B-Instruct` base model. Earlier low-bit LoRA fine-tuning runs were useful for rapid prototyping and pipeline validation, but they should not define the main published comparison once full-SFT training on `8 x H200` GPUs is available. Using a common full-SFT regime improves fairness across variants and avoids conflating ROI effects with parameter-efficient adaptation choices.
+
 ### Evaluation Protocol
 
 Validation and test files were generated for both full-frame and ROI-crop inputs:
@@ -778,6 +816,30 @@ The training script now defaults to this repository-local model path. It can als
 set VLM_MODEL_ID=python/models/Qwen2.5-VL-7B-Instruct
 ```
 
+### Hardware Assumption for Main Paper Runs
+
+The current intended hardware for the main paper experiments is:
+
+```text
+8 x H200 GPUs
+```
+
+Under this hardware assumption:
+
+```text
+Main experiments should use full SFT.
+Do not treat 4-bit loading as the main default.
+Do not treat LoRA as the main paper training strategy.
+```
+
+LoRA-based runs can still be preserved in the repository for:
+
+```text
+historical comparison
+engineering baselines
+quick pilot checks
+```
+
 ### Training Script Defaults
 
 The training entry point `python/src/train_lora.py` now defaults to:
@@ -792,6 +854,8 @@ Training data:
 Experiment name:
   roi_mixed_full_roi_finetune_v1
 ```
+
+Note that `train_lora.py` is now best interpreted as a legacy or transitional training entry point. The main paper direction has shifted to full SFT from the base model rather than LoRA-based adaptation.
 
 You can switch experiments without editing the script by setting:
 

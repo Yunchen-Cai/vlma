@@ -75,6 +75,26 @@ The core scientific concern is:
 
 The ROI experiment was designed to provide stronger evidence for feature learning rather than prompt-only behavior change.
 
+## Current Strategic Decision
+
+An important decision was made near the end of this conversation:
+
+```text
+The new main paper experiments should be trained from the Qwen2.5-VL-7B-Instruct base model with full supervised fine-tuning (full SFT), not with LoRA as the primary method.
+```
+
+Reason:
+
+- the user now has access to `8 x H200` GPUs
+- the dataset is still relatively small
+- full SFT gives a cleaner and more defensible experimental definition for the paper
+- it avoids mixing ROI conclusions with older LoRA or quantization design choices
+
+Therefore:
+
+- old LoRA runs remain useful as legacy baselines and reference checkpoints
+- the new ROI paper line should be re-run from the same base model initialization
+
 ## Paper Direction
 
 The paper direction developed in this conversation is:
@@ -83,6 +103,12 @@ The paper direction developed in this conversation is:
 - compare full-image training, ROI-only training, and Full+ROI mixed training
 - show stronger completion verification on subtle hard negatives
 - later combine with SOP/FSM constraints for process-level robustness
+
+The main published ROI line should now be understood as:
+
+- `Qwen2.5-VL-7B-Instruct` base model
+- common full-SFT training regime
+- comparison between `Full-only`, `ROI-only`, and `Full+ROI mixed`
 
 Target experiment families discussed:
 
@@ -210,6 +236,7 @@ Note:
 
 - the base Qwen model itself is not in this repository
 - it must be downloaded separately on the new machine
+- despite the filename `train_lora.py`, the long-term main paper direction is now full SFT rather than LoRA
 
 ## Base Model Required on New Machine
 
@@ -224,6 +251,24 @@ Recommended local location:
 If needed, the script can also use:
 
 - `VLM_MODEL_ID=<path-or-model-id>`
+
+## Hardware Assumption for Main Experiments
+
+The user now has access to:
+
+- `8 x H200 GPUs`
+
+This changes the preferred training strategy.
+
+Old situation:
+
+- LoRA and low-bit loading were attractive because of hardware limits
+
+Current preferred situation:
+
+- full SFT from `Qwen2.5-VL-7B-Instruct`
+- common initialization for all new ROI experiments
+- no need to make 4-bit LoRA the main experimental path
 
 ## Git and Upload Work Completed
 
@@ -299,6 +344,12 @@ These are the selected final adapters that should eventually be pushed:
 
 Only the final adapter files were intended for upload, not redundant intermediate checkpoint folders.
 
+Important interpretation:
+
+- these LoRA adapters are no longer the intended main paper method
+- they should be preserved as legacy baselines, engineering checkpoints, or quick comparison references
+- they are still valuable to upload because the new machine can use them for comparison without rerunning old pilot experiments
+
 ### Why they were not pushed yet
 
 The work was reorganized into smaller pushes because large pushes repeatedly failed due to unstable GitHub HTTPS connectivity.
@@ -369,6 +420,8 @@ The intended main ROI comparison is:
 2. `ROI-only`
 3. `Full+ROI mixed`
 
+For the final paper version, all three should be trained from the same `Qwen2.5-VL-7B-Instruct` base model with full SFT.
+
 Recommended evaluation matrix:
 
 1. train full-only -> test full
@@ -392,6 +445,8 @@ The agreed broad plan is:
 - run `Full-only`
 - run `ROI-only`
 - run `Full+ROI mixed`
+
+All three should be re-run under the new full-SFT regime rather than inherited from older LoRA-based prototypes.
 
 ### Stage 2. Verification metrics
 
@@ -453,7 +508,8 @@ The most useful next actions are:
 
 1. push the three large raw-frame directories in smaller batches
 2. push the selected final LoRA adapters through Git LFS
-3. add a clean evaluation script that can consume model outputs and produce:
+3. prepare the new full-SFT training pipeline from `Qwen2.5-VL-7B-Instruct`
+4. add a clean evaluation script that can consume model outputs and produce:
    - accuracy
    - precision
    - recall
@@ -461,7 +517,7 @@ The most useful next actions are:
    - FPR
    - FNR
    - completion judgment accuracy
-4. optionally create a dedicated training launcher for:
+5. optionally create a dedicated full-SFT training launcher for:
    - `full_sft_v1.json`
    - `roi_only_sft_v1.json`
    - `full_roi_mixed_sft_v1.json`
@@ -485,3 +541,4 @@ Avoid pushing all remaining large assets in one single commit if the network rem
 - The new machine can only obtain materials from GitHub, so reproducibility through repository contents matters a lot.
 - The user is writing a high-level academic paper and wants experiment records in a paper-ready style.
 - The user values practical execution over theoretical discussion and often wants the agent to directly run or prepare the actual workflow.
+- The user explicitly agrees that the new main experiments should restart from `Qwen2.5-VL-7B-Instruct` with full SFT rather than using LoRA as the main path.
