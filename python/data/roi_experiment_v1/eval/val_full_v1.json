@@ -1,0 +1,2570 @@
+[
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/3.16test_vlm_verification_frames__cover_error (1)_f462.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/3.16test_vlm_verification_frames__cover_error (1)_f462.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/3.14vlm_verification_frames__cover_error_f242.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/3.14vlm_verification_frames__cover_error_f242.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/3.16test_vlm_verification_frames__cover_error (1)_f44.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/3.16test_vlm_verification_frames__cover_error (1)_f44.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Finish/3.14vlm_verification_frames__cover_correct_f836.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Finish/3.14vlm_verification_frames__cover_correct_f836.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Finish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/2.3vlm_status_frames__Error_cover_error_f594.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/2.3vlm_status_frames__Error_cover_error_f594.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/3.16test_vlm_verification_frames__cover_error (1)_f583.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/3.16test_vlm_verification_frames__cover_error (1)_f583.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/3.16test_vlm_verification_frames__cover_error (1)_f913.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/3.16test_vlm_verification_frames__cover_error (1)_f913.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/2.3vlm_status_frames__Error_cover_error_f418.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/2.3vlm_status_frames__Error_cover_error_f418.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Finish/2.3vlm_status_frames__Correct_cover_correct_f308.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Finish/2.3vlm_status_frames__Correct_cover_correct_f308.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Finish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/2.3vlm_status_frames__Error_cover_error_f583.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/2.3vlm_status_frames__Error_cover_error_f583.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/2.3vlm_status_frames__Error_cover_error_f836.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/2.3vlm_status_frames__Error_cover_error_f836.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/2.3vlm_status_frames__Error_cover_error_f1188.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/2.3vlm_status_frames__Error_cover_error_f1188.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Finish/3.16test_vlm_verification_frames__cover_correct (1)_f1155.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Finish/3.16test_vlm_verification_frames__cover_correct (1)_f1155.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Finish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/3.14vlm_verification_frames__cover_error_f1155.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/3.14vlm_verification_frames__cover_error_f1155.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/2.3vlm_status_frames__Error_cover_error_f517.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/2.3vlm_status_frames__Error_cover_error_f517.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/3.16test_vlm_verification_frames__cover_error (1)_f869.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/3.16test_vlm_verification_frames__cover_error (1)_f869.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/3.14vlm_verification_frames__cover_error_f11.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/3.14vlm_verification_frames__cover_error_f11.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Finish/3.16test_vlm_verification_frames__cover_correct (1)_f165.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Finish/3.16test_vlm_verification_frames__cover_correct (1)_f165.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Finish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/2.3vlm_status_frames__Error_cover_error_f429.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/2.3vlm_status_frames__Error_cover_error_f429.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Finish/3.14vlm_verification_frames__cover_correct_f869.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Finish/3.14vlm_verification_frames__cover_correct_f869.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Finish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Finish/3.16test_vlm_verification_frames__cover_correct (1)_f1012.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Finish/3.16test_vlm_verification_frames__cover_correct (1)_f1012.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Finish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/3.14vlm_verification_frames__cover_error_f66.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/3.14vlm_verification_frames__cover_error_f66.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/3.14vlm_verification_frames__cover_error_f1188.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/3.14vlm_verification_frames__cover_error_f1188.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Finish/2.3vlm_status_frames__Correct_cover_correct_f682.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Finish/2.3vlm_status_frames__Correct_cover_correct_f682.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Finish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Finish/3.14vlm_verification_frames__cover_correct_f187.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Finish/3.14vlm_verification_frames__cover_correct_f187.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Finish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Finish/2.3vlm_status_frames__Correct_cover_correct_f704.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Finish/2.3vlm_status_frames__Correct_cover_correct_f704.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Finish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/3.14vlm_verification_frames__cover_error_f990.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/3.14vlm_verification_frames__cover_error_f990.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/3.16test_vlm_verification_frames__cover_error (1)_f440.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/3.16test_vlm_verification_frames__cover_error (1)_f440.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/3.16test_vlm_verification_frames__cover_error (1)_f539.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/3.16test_vlm_verification_frames__cover_error (1)_f539.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Finish/3.16test_vlm_verification_frames__cover_correct (1)_f11.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Finish/3.16test_vlm_verification_frames__cover_correct (1)_f11.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Finish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/2.3vlm_status_frames__Error_cover_error_f308.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/2.3vlm_status_frames__Error_cover_error_f308.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/2.3vlm_status_frames__Error_cover_error_f660.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/2.3vlm_status_frames__Error_cover_error_f660.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Finish/2.3vlm_status_frames__Correct_cover_correct_f264.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Finish/2.3vlm_status_frames__Correct_cover_correct_f264.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Finish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Finish/3.16test_vlm_verification_frames__cover_correct (1)_f847.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Finish/3.16test_vlm_verification_frames__cover_correct (1)_f847.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Finish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Finish/2.3vlm_status_frames__Correct_cover_correct_f550.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Finish/2.3vlm_status_frames__Correct_cover_correct_f550.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Finish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/3.14vlm_verification_frames__cover_error_f605.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/3.14vlm_verification_frames__cover_error_f605.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Finish/3.16test_vlm_verification_frames__cover_correct (1)_f715.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Finish/3.16test_vlm_verification_frames__cover_correct (1)_f715.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Finish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Finish/2.3vlm_status_frames__Correct_cover_correct_f539.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Finish/2.3vlm_status_frames__Correct_cover_correct_f539.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Finish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/2.3vlm_status_frames__Error_cover_error_f1210.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/2.3vlm_status_frames__Error_cover_error_f1210.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Finish/3.16test_vlm_verification_frames__cover_correct (1)_f1177.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Finish/3.16test_vlm_verification_frames__cover_correct (1)_f1177.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Finish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Finish/2.3vlm_status_frames__Correct_cover_correct_f473.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Finish/2.3vlm_status_frames__Correct_cover_correct_f473.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Finish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Finish/3.16test_vlm_verification_frames__cover_correct (1)_f1342.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Finish/3.16test_vlm_verification_frames__cover_correct (1)_f1342.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Finish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Finish/3.16test_vlm_verification_frames__cover_correct (1)_f572.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Finish/3.16test_vlm_verification_frames__cover_correct (1)_f572.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Finish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Finish/2.3vlm_status_frames__Correct_cover_correct_f814.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Finish/2.3vlm_status_frames__Correct_cover_correct_f814.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Finish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Finish/3.16test_vlm_verification_frames__cover_correct (1)_f649.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Finish/3.16test_vlm_verification_frames__cover_correct (1)_f649.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Finish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Finish/3.16test_vlm_verification_frames__cover_correct (1)_f429.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Finish/3.16test_vlm_verification_frames__cover_correct (1)_f429.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Finish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Finish/2.3vlm_status_frames__Correct_cover_correct_f638.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Finish/2.3vlm_status_frames__Correct_cover_correct_f638.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Finish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/3.14vlm_verification_frames__cover_error_f132.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/3.14vlm_verification_frames__cover_error_f132.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/2.3vlm_status_frames__Error_cover_error_f352.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/2.3vlm_status_frames__Error_cover_error_f352.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/3.16test_vlm_verification_frames__cover_error (1)_f319.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/3.16test_vlm_verification_frames__cover_error (1)_f319.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Finish/3.14vlm_verification_frames__cover_correct_f847.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Finish/3.14vlm_verification_frames__cover_correct_f847.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Finish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/2.3vlm_status_frames__Error_cover_error_f330.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/2.3vlm_status_frames__Error_cover_error_f330.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/3.16test_vlm_verification_frames__cover_error (1)_f814.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/3.16test_vlm_verification_frames__cover_error (1)_f814.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Finish/3.14vlm_verification_frames__cover_correct_f572.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Finish/3.14vlm_verification_frames__cover_correct_f572.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Finish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/3.14vlm_verification_frames__cover_error_f308.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/3.14vlm_verification_frames__cover_error_f308.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/3.16test_vlm_verification_frames__cover_error (1)_f1298.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/3.16test_vlm_verification_frames__cover_error (1)_f1298.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Finish/3.16test_vlm_verification_frames__cover_correct (1)_f1298.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Finish/3.16test_vlm_verification_frames__cover_correct (1)_f1298.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Finish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Finish/3.14vlm_verification_frames__cover_correct_f198.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Finish/3.14vlm_verification_frames__cover_correct_f198.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Finish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/3.16test_vlm_verification_frames__cover_error (1)_f1265.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/3.16test_vlm_verification_frames__cover_error (1)_f1265.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Finish/3.14vlm_verification_frames__cover_correct_f693.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Finish/3.14vlm_verification_frames__cover_correct_f693.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Finish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/3.16test_vlm_verification_frames__cover_error (1)_f726.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/3.16test_vlm_verification_frames__cover_error (1)_f726.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/2.3vlm_status_frames__Error_cover_error_f1012.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/2.3vlm_status_frames__Error_cover_error_f1012.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Finish/2.3vlm_status_frames__Correct_cover_correct_f924.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Finish/2.3vlm_status_frames__Correct_cover_correct_f924.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Finish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Finish/2.3vlm_status_frames__Correct_cover_correct_f957.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Finish/2.3vlm_status_frames__Correct_cover_correct_f957.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Finish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/2.3vlm_status_frames__Error_cover_error_f1122.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/2.3vlm_status_frames__Error_cover_error_f1122.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Finish/2.3vlm_status_frames__Correct_cover_correct_f198.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Finish/2.3vlm_status_frames__Correct_cover_correct_f198.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Finish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/3.14vlm_verification_frames__cover_error_f693.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/3.14vlm_verification_frames__cover_error_f693.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Finish/3.16test_vlm_verification_frames__cover_correct (1)_f1518.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Finish/3.16test_vlm_verification_frames__cover_correct (1)_f1518.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Finish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Finish/2.3vlm_status_frames__Correct_cover_correct_f352.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Finish/2.3vlm_status_frames__Correct_cover_correct_f352.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Finish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/2.3vlm_status_frames__Error_cover_error_f550.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/2.3vlm_status_frames__Error_cover_error_f550.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/3.16test_vlm_verification_frames__cover_error (1)_f1562.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/3.16test_vlm_verification_frames__cover_error (1)_f1562.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Finish/3.16test_vlm_verification_frames__cover_correct (1)_f616.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Finish/3.16test_vlm_verification_frames__cover_correct (1)_f616.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Finish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/3.14vlm_verification_frames__cover_error_f33.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/3.14vlm_verification_frames__cover_error_f33.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/2.3vlm_status_frames__Error_cover_error_f671.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/2.3vlm_status_frames__Error_cover_error_f671.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Finish/3.14vlm_verification_frames__cover_correct_f77.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Finish/3.14vlm_verification_frames__cover_correct_f77.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Finish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/3.14vlm_verification_frames__cover_error_f1133.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/3.14vlm_verification_frames__cover_error_f1133.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/2.3vlm_status_frames__Error_cover_error_f1265.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/2.3vlm_status_frames__Error_cover_error_f1265.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/2.3vlm_status_frames__Error_cover_error_f231.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/2.3vlm_status_frames__Error_cover_error_f231.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/2.3vlm_status_frames__Error_cover_error_f979.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/2.3vlm_status_frames__Error_cover_error_f979.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Finish/3.16test_vlm_verification_frames__cover_correct (1)_f704.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Finish/3.16test_vlm_verification_frames__cover_correct (1)_f704.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Finish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/2.3vlm_status_frames__Error_cover_error_f1386.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/2.3vlm_status_frames__Error_cover_error_f1386.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Finish/3.14vlm_verification_frames__cover_correct_f374.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Finish/3.14vlm_verification_frames__cover_correct_f374.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Finish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/3.14vlm_verification_frames__cover_error_f572.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/3.14vlm_verification_frames__cover_error_f572.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Finish/3.16test_vlm_verification_frames__cover_correct (1)_f396.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Finish/3.16test_vlm_verification_frames__cover_correct (1)_f396.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Finish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Finish/2.3vlm_status_frames__Correct_cover_correct_f748.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Finish/2.3vlm_status_frames__Correct_cover_correct_f748.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Finish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/3.16test_vlm_verification_frames__cover_error (1)_f1551.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/3.16test_vlm_verification_frames__cover_error (1)_f1551.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Finish/3.16test_vlm_verification_frames__cover_correct (1)_f1067.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Finish/3.16test_vlm_verification_frames__cover_correct (1)_f1067.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Finish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/3.16test_vlm_verification_frames__cover_error (1)_f1067.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/3.16test_vlm_verification_frames__cover_error (1)_f1067.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Finish/3.16test_vlm_verification_frames__cover_correct (1)_f1254.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Finish/3.16test_vlm_verification_frames__cover_correct (1)_f1254.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Finish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/3.14vlm_verification_frames__cover_error_f198.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/3.14vlm_verification_frames__cover_error_f198.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/3.14vlm_verification_frames__cover_error_f1034.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/3.14vlm_verification_frames__cover_error_f1034.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/2.3vlm_status_frames__Error_cover_error_f286.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/2.3vlm_status_frames__Error_cover_error_f286.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Finish/3.14vlm_verification_frames__cover_correct_f286.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Finish/3.14vlm_verification_frames__cover_correct_f286.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Finish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/3.14vlm_verification_frames__cover_error_f759.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/3.14vlm_verification_frames__cover_error_f759.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/3.14vlm_verification_frames__cover_error_f1023.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/3.14vlm_verification_frames__cover_error_f1023.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Finish/3.16test_vlm_verification_frames__cover_correct (1)_f198.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Finish/3.16test_vlm_verification_frames__cover_correct (1)_f198.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Finish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Finish/3.14vlm_verification_frames__cover_correct_f396.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Finish/3.14vlm_verification_frames__cover_correct_f396.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Finish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/2.3vlm_status_frames__Error_cover_error_f528.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/2.3vlm_status_frames__Error_cover_error_f528.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/3.14vlm_verification_frames__cover_error_f352.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/3.14vlm_verification_frames__cover_error_f352.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Finish/3.16test_vlm_verification_frames__cover_correct (1)_f0.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Finish/3.16test_vlm_verification_frames__cover_correct (1)_f0.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Finish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/2.3vlm_status_frames__Error_cover_error_f1221.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/2.3vlm_status_frames__Error_cover_error_f1221.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/3.14vlm_verification_frames__cover_error_f671.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/3.14vlm_verification_frames__cover_error_f671.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/3.16test_vlm_verification_frames__cover_error (1)_f803.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/3.16test_vlm_verification_frames__cover_error (1)_f803.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Unfinish/3.16test_vlm_verification_frames__cover_error (1)_f1342.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Unfinish/3.16test_vlm_verification_frames__cover_error (1)_f1342.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Unfinish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Finish/3.14vlm_verification_frames__cover_correct_f968.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Finish/3.14vlm_verification_frames__cover_correct_f968.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Finish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Finish/3.16test_vlm_verification_frames__cover_correct (1)_f352.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Finish/3.16test_vlm_verification_frames__cover_correct (1)_f352.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Finish\"}"
+      }
+    ]
+  },
+  {
+    "image": [
+      "roi_annotation_input/Finish/3.16test_vlm_verification_frames__cover_correct (1)_f407.jpg"
+    ],
+    "conversations": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "roi_annotation_input/Finish/3.16test_vlm_verification_frames__cover_correct (1)_f407.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Determine whether the Port End Cover assembly state is Finish or Unfinish. Output only JSON: {\"part\": \"...\", \"verification\": \"Finish/Unfinish\"}."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "{\"part\": \"Port End Cover\", \"verification\": \"Finish\"}"
+      }
+    ]
+  }
+]

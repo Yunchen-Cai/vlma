@@ -1,0 +1,3 @@
+image_path,part,gt_verification,hard_case,x1,y1,x2,y2,roi_type,notes
+temp_frames/example_finish.jpg,Port End Cover,Finish,Finish,420,190,870,620,bbox,"clear corner holes; even overhang"
+temp_frames/example_near_unfinish.jpg,Port End Cover,Unfinish,Near_Finished_Unfinish,420,190,870,620,bbox,"slight hole misalignment"

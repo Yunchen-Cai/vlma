@@ -24,6 +24,17 @@ python/*.bin
 python/*.dat
 python/*.safetensors
 python/*.ckpt
+python/**/__pycache__/
+
+# Allow ROI experiment assets that are needed for reproducible training/evaluation.
+!python/data/
+python/data/*
+!python/data/roi_annotations_template.csv
+!python/data/roi_annotations_v1.csv
+!python/data/roi_annotation_input/
+!python/data/roi_annotation_input/**
+!python/data/roi_experiment_v1/
+!python/data/roi_experiment_v1/**
 
 # ====================== VideoAssemblyMonitor (Spring / Gradle 端) ======================
 # 忽略图片中显示的构建和缓存文件夹
