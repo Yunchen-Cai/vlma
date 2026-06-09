@@ -28,15 +28,21 @@ os.environ["HF_HOME"] = str(PROJECT_ROOT / "cache" / "huggingface")
 
 # 2. 模型与数据路径
 # 假设模型还在 cache 里，或者您可以把它移到 models 文件夹
-MODEL_ID = r"D:\vlm_assembly\cache\huggingface\hub\Qwen2.5-VL-7B-Instruct"
+DEFAULT_MODEL_DIR = PROJECT_ROOT / "models" / "Qwen2.5-VL-7B-Instruct"
+MODEL_ID = os.environ.get("VLM_MODEL_ID", str(DEFAULT_MODEL_DIR))
 
 # 自动定位 JSON 文件
-DATA_FILE = PROJECT_ROOT / "data" / "3.15_final_mixed_sft_dataset.json"
+DEFAULT_DATA_FILE = (
+    PROJECT_ROOT / "data" / "roi_experiment_v1" / "sft" / "full_roi_mixed_sft_v1.json"
+)
+DATA_FILE = Path(os.environ.get("VLM_DATA_FILE", str(DEFAULT_DATA_FILE)))
 # 自动定位图片根目录
 IMAGE_ROOT = PROJECT_ROOT / "data"
 
 # 3. 输出路径 (每次实验建议改一下版本号，如 v1, v2)
-EXPERIMENT_NAME = "v3.15_few_shot_verification"
+EXPERIMENT_NAME = os.environ.get(
+    "VLM_EXPERIMENT_NAME", "roi_mixed_full_roi_finetune_v1"
+)
 OUTPUT_DIR = PROJECT_ROOT / "output" / EXPERIMENT_NAME
 
 print(f"项目根目录: {PROJECT_ROOT}")

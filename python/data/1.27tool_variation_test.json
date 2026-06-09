@@ -1,0 +1,3794 @@
+[
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000000.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000000.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000010.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000010.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000020.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000020.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000030.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000030.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000040.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000040.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000050.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000050.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000060.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000060.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000070.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000070.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000080.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000080.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000090.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000090.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000100.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000100.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000110.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000110.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000120.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000120.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000130.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000130.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000140.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000140.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000150.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000150.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000160.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000160.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000170.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000170.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000180.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000180.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000190.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000190.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000200.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000200.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000210.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000210.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000220.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000220.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000230.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000230.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000240.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000240.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000250.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000250.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000260.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000260.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000270.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000270.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000280.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000280.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000290.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000290.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000300.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000300.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000310.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000310.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000320.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000320.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000330.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000330.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000340.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000340.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000350.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000350.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000360.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000360.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000370.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000370.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000380.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000380.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000390.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000390.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000400.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000400.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000410.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000410.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000420.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000420.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000430.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000430.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000440.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000440.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000450.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000450.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000460.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000460.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000470.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000470.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000480.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000480.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000490.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000490.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000500.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000500.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000510.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000510.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000520.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000520.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/adjustable test_frame000530.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/adjustable test_frame000530.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Adjustable Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+  {
+        "image": [
+            "tool_test_frames/open end wrench test_frame000000.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/open end wrench test_frame000000.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Open End Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/open end wrench test_frame000010.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/open end wrench test_frame000010.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Open End Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/open end wrench test_frame000020.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/open end wrench test_frame000020.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Open End Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/open end wrench test_frame000030.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/open end wrench test_frame000030.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Open End Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/open end wrench test_frame000040.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/open end wrench test_frame000040.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Open End Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/open end wrench test_frame000050.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/open end wrench test_frame000050.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Open End Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/open end wrench test_frame000060.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/open end wrench test_frame000060.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Open End Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/open end wrench test_frame000070.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/open end wrench test_frame000070.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Open End Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/open end wrench test_frame000080.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/open end wrench test_frame000080.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Open End Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/open end wrench test_frame000090.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/open end wrench test_frame000090.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Open End Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/open end wrench test_frame000100.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/open end wrench test_frame000100.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Open End Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/open end wrench test_frame000110.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/open end wrench test_frame000110.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Open End Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/open end wrench test_frame000120.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/open end wrench test_frame000120.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Open End Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/open end wrench test_frame000130.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/open end wrench test_frame000130.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Open End Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/open end wrench test_frame000140.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/open end wrench test_frame000140.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Open End Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/open end wrench test_frame000150.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/open end wrench test_frame000150.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Open End Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/open end wrench test_frame000160.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/open end wrench test_frame000160.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Open End Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/open end wrench test_frame000170.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/open end wrench test_frame000170.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Open End Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/open end wrench test_frame000180.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/open end wrench test_frame000180.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Open End Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/open end wrench test_frame000190.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/open end wrench test_frame000190.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Open End Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/open end wrench test_frame000200.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/open end wrench test_frame000200.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Open End Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/open end wrench test_frame000210.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/open end wrench test_frame000210.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Open End Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/open end wrench test_frame000220.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/open end wrench test_frame000220.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Open End Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/open end wrench test_frame000230.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/open end wrench test_frame000230.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Open End Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/open end wrench test_frame000240.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/open end wrench test_frame000240.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Open End Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/open end wrench test_frame000250.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/open end wrench test_frame000250.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Open End Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/open end wrench test_frame000260.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/open end wrench test_frame000260.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Open End Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/open end wrench test_frame000270.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/open end wrench test_frame000270.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Open End Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/open end wrench test_frame000280.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/open end wrench test_frame000280.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Open End Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/open end wrench test_frame000290.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/open end wrench test_frame000290.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Open End Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/open end wrench test_frame000300.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/open end wrench test_frame000300.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Open End Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/open end wrench test_frame000310.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/open end wrench test_frame000310.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Open End Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/open end wrench test_frame000320.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/open end wrench test_frame000320.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Open End Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/open end wrench test_frame000330.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/open end wrench test_frame000330.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Open End Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/open end wrench test_frame000340.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/open end wrench test_frame000340.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Open End Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/open end wrench test_frame000350.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/open end wrench test_frame000350.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Open End Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/open end wrench test_frame000360.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/open end wrench test_frame000360.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Open End Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/open end wrench test_frame000370.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/open end wrench test_frame000370.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Open End Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/open end wrench test_frame000380.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/open end wrench test_frame000380.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Open End Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/open end wrench test_frame000390.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/open end wrench test_frame000390.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Open End Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/open end wrench test_frame000400.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/open end wrench test_frame000400.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Open End Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/open end wrench test_frame000410.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/open end wrench test_frame000410.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Open End Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/open end wrench test_frame000420.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/open end wrench test_frame000420.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Open End Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/open end wrench test_frame000430.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/open end wrench test_frame000430.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Open End Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/open end wrench test_frame000440.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/open end wrench test_frame000440.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Open End Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/open end wrench test_frame000450.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/open end wrench test_frame000450.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Open End Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/open end wrench test_frame000460.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/open end wrench test_frame000460.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Open End Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/open end wrench test_frame000470.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/open end wrench test_frame000470.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Open End Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/open end wrench test_frame000480.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/open end wrench test_frame000480.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Open End Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/open end wrench test_frame000490.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/open end wrench test_frame000490.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Open End Wrench\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+  {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000000.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000000.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000010.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000010.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000020.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000020.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000030.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000030.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000040.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000040.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000050.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000050.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000060.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000060.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000070.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000070.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000080.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000080.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000090.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000090.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000100.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000100.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000110.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000110.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000120.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000120.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000130.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000130.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000140.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000140.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000150.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000150.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000160.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000160.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000170.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000170.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000180.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000180.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000190.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000190.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000200.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000200.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000210.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000210.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000220.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000220.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000230.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000230.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000240.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000240.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000250.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000250.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000260.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000260.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000270.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000270.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000280.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000280.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000290.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000290.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000300.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000300.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000310.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000310.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000320.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000320.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000330.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000330.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000340.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000340.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000350.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000350.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000360.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000360.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000370.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000370.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000380.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000380.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000390.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000390.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000400.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000400.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000410.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000410.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000420.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000420.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000430.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000430.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000440.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000440.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000450.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000450.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000460.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000460.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000470.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000470.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000480.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000480.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000490.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000490.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000500.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000500.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000510.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000510.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000520.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000520.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    },
+    {
+        "image": [
+            "tool_test_frames/screwdriver test_frame000530.jpg"
+        ],
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "image",
+                        "image": "tool_test_frames/screwdriver test_frame000530.jpg"
+                    },
+                    {
+                        "type": "text",
+                        "text": "You are an assembly quality inspector. Observe this frame. Identify the hand action, tool, part, and phase.\n\nOutput ONLY in this JSON format: {\"action\": \"...\", \"tool\": \"...\", \"part\": \"...\", \"phase\": \"...\"}."
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": "{\"action\": \"Tighten\", \"tool\": \"Screwdriver\", \"part\": \"Capscrew\", \"phase\": \"execution\"}"
+            }
+        ]
+    }
+]

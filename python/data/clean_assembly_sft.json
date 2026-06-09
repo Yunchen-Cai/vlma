@@ -1,0 +1,3600 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_82.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_83.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_84.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_85.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_86.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_87.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_88.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_89.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "开始"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_114.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_115.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_116.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_117.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_118.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_119.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_120.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_121.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "左手拿起机箱"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_161.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_162.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_163.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_164.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_165.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_166.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_167.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_168.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "右手拿起小齿轮"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_292.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_293.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_294.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_295.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_296.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_297.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_298.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_299.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "右手装入小齿轮到机箱内"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_360.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_361.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_362.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_363.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_364.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_365.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_366.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_367.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "右手拿起长轴齿轮"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_443.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_444.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_445.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_446.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_447.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_448.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_449.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_450.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "右手装入长轴齿轮到机箱内"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_642.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_643.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_644.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_645.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_646.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_647.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_648.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_649.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "右手拿起齿轮套"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_767.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_768.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_769.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_770.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_771.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_772.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_773.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_774.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "右手装入齿轮套到机箱内"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1068.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1069.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1070.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1071.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1072.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1073.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1074.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1075.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "左手将机箱递给右手拿住"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1185.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1186.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1187.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1188.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1189.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1190.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1191.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1192.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "左手拿起黑色盖子"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1291.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1292.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1293.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1294.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1295.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1296.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1297.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1298.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "左手将黑色盖子盖在机箱上"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1522.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1523.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1524.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1525.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1526.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1527.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1528.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1529.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "右手拿起白色盖子"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1666.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1667.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1668.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1669.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1670.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1671.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1672.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1673.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "右手将白色盖子盖在机箱上"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1741.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1742.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1743.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1744.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1745.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1746.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1747.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1748.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "右手拿起白色盖子盖在机箱上"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1834.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1835.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1836.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1837.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1838.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1839.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1840.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1841.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "左手拿起螺丝钉"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1938.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1939.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1940.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1941.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1942.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1943.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1944.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_1945.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "右手装入利器干 feeds"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2057.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2058.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2059.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2060.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2061.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2062.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2063.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2064.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "左手拿起螺丝钉"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2115.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2116.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2117.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2118.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2119.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2120.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2121.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2122.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "左手装入 magnet"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2168.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2169.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2170.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2171.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2172.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2173.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2174.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2175.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "左手拿起螺丝钉"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2295.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2296.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2297.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2298.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2299.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2300.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2301.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2302.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "左手装入 kTT 锁刀"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2358.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2359.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2360.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2361.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2362.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2363.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2364.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2365.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "左手拿起 装入 kTT"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2408.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2409.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2410.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2411.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2412.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2413.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2414.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2415.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "左手拿起 装入 kTT"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2435.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2436.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2437.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2438.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2439.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2440.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2441.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2442.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "左手装入 kTT"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2508.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2509.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2510.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2511.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2512.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2513.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2514.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2515.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "左手装入 kTT"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2535.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2536.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2537.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2538.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2539.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2540.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2541.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/1.mp4_2542.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "谢谢"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_58.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_59.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_60.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_61.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_62.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_63.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_64.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_65.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "开始"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_100.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_101.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_102.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_103.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_104.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_105.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_106.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_107.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "左手拿起机箱"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_145.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_146.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_147.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_148.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_149.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_150.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_151.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_152.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "右手拿起小齿轮"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_238.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_239.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_240.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_241.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_242.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_243.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_244.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_245.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "右手将小齿轮装到机箱内"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_329.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_330.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_331.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_332.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_333.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_334.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_335.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_336.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "右手拿起长轴齿轮"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_392.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_393.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_394.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_395.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_396.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_397.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_398.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_399.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "右手将长轴齿轮装到机箱内"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_544.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_545.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_546.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_547.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_548.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_549.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_550.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_551.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "右手拿起齿轮套"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_640.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_641.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_642.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_643.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_644.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_645.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_646.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_647.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "右手将齿轮套装入机箱内"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_787.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_788.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_789.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_790.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_791.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_792.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_793.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_794.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "左手将机箱递给右手拿主"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_890.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_891.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_892.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_893.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_894.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_895.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_896.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_897.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "左手拿起黑色盖"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_940.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_941.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_942.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_943.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_944.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_945.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_946.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_947.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "左手将黑色盖子盖在机箱上"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1165.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1166.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1167.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1168.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1169.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1170.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1171.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1172.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "右手拿起白色盖子"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1222.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1223.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1224.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1225.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1226.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1227.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1228.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1229.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "右手将白色盖子盖在机箱上"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1401.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1402.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1403.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1404.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1405.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1406.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1407.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1408.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "左手拿起螺丝钉"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1480.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1481.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1482.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1483.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1484.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1485.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1486.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1487.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "左手装入螺丝钉"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1572.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1573.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1574.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1575.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1576.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1577.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1578.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1579.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "左手拿起螺丝钉"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1643.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1644.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1645.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1646.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1647.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1648.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1649.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1650.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "左手装入螺丝钉"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1721.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1722.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1723.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1724.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1725.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1726.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1727.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1728.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "左手拿起螺丝钉"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1791.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1792.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1793.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1794.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1795.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1796.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1797.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1798.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "左手装入螺丝钉"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1880.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1881.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1882.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1883.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1884.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1885.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1886.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1887.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "左手将拿起螺丝钉"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1977.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1978.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1979.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1980.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1981.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1982.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1983.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/2.mp4_1984.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "左手装入螺丝钉"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_24.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_25.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_26.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_27.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_28.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_29.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_30.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_31.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "开始"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_39.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_40.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_41.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_42.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_43.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_44.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_45.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_46.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "左手拿起机箱"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_94.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_95.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_96.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_97.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_98.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_99.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_100.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_101.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "右手拿起小齿轮"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_145.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_146.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_147.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_148.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_149.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_150.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_151.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_152.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "右手装入小齿轮到机箱内"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_290.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_291.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_292.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_293.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_294.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_295.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_296.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_297.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "右手装"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_325.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_326.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_327.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_328.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_329.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_330.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_331.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_332.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "右手拿起长轴齿轮"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_387.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_388.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_389.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_390.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_391.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_392.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_393.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_394.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "右手装入长轴齿轮到机箱内"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_534.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_535.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_536.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_537.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_538.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_539.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_540.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_541.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "右手拿起齿轮套"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_608.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_609.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_610.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_611.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_612.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_613.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_614.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_615.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "右手装入齿轮套到机箱内"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_868.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_869.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_870.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_871.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_872.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_873.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_874.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_875.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "左手将机箱递给右手拿珠"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_972.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_973.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_974.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_975.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_976.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_977.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_978.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_979.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "左手拿起黑色盖子"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_1196.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_1197.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_1198.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_1199.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_1200.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_1201.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_1202.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_1203.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "左手将黑色盖子改到机箱上"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_1428.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_1429.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_1430.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_1431.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_1432.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_1433.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_1434.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_1435.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "右手拿起"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_1513.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_1514.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_1515.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_1516.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_1517.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_1518.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_1519.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_1520.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "右手拿起白色盖子"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_1678.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_1679.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_1680.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_1681.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_1682.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_1683.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_1684.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_1685.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "右手将白色盖子盖到机箱上"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_1880.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_1881.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_1882.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_1883.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_1884.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_1885.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_1886.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_1887.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "左手拿起螺丝钉"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2001.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2002.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2003.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2004.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2005.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2006.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2007.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2008.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "左手装入螺丝钉"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2189.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2190.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2191.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2192.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2193.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2194.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2195.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2196.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "左手拿起螺丝钉"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2254.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2255.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2256.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2257.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2258.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2259.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2260.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2261.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "左手装入螺丝钉"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2357.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2358.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2359.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2360.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2361.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2362.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2363.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2364.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "左手拿起螺丝钉"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2411.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2412.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2413.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2414.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2415.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2416.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2417.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2418.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "左手装入螺丝钉"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2476.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2477.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2478.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2479.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2480.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2481.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2482.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2483.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "左手拿起螺丝钉"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2499.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2500.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2501.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2502.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2503.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2504.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2505.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2506.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "左手装入螺丝钉"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2507.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2508.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2509.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2510.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2511.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2512.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2513.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2514.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "左手拿起螺丝钉"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2531.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2532.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2533.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2534.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2535.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2536.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2537.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2538.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "因为我我们将运作机箱™"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2605.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2606.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2607.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2608.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2609.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "可能 Palpton有 Swing2020 的区别"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2609.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2610.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2611.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2612.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2613.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2614.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2615.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2616.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "可能 ibaneant Hard Script"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2639.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2640.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2641.jpg"
+          },
+          {
+            "type": "image",
+            "image": "temp_frames/3.mp4_2642.jpg"
+          },
+          {
+            "type": "text",
+            "text": "You are an assembly quality inspector. Observe these consecutive video frames and output in JSON format: {\"action\": \"hand action (e.g., grasp/place/tighten)\", \"tool\": \"tool (e.g., screwdriver/none)\", \"part\": \"part (e.g., screw_A/chassis)\", \"is_correct\": true/false, \"suggestion\": \"if wrong, give real-time suggestion\"}. Judge based on standard assembly process."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "可能 X 自己的机箱"
+      }
+    ]
+  }
+]

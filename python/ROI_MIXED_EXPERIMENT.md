@@ -732,3 +732,71 @@ Full-only vs ROI-only vs Full+ROI mixed
 ```
 
 not on multi-image inference.
+
+## New Machine Setup
+
+If the project is resumed on another computer using only the GitHub repository, the following assets should be available directly after cloning:
+
+```text
+python/data/2.3vlm_status_frames/
+python/data/3.14vlm_verification_frames/
+python/data/3.16test_vlm_verification_frames/
+python/data/roi_annotation_input/
+python/data/roi_experiment_v1/
+python/data/*.json
+python/output/v1_lora_baseline/
+python/output/v3.14_few_shot_verification/
+python/output/v3.15_few_shot_verification/
+```
+
+These uploaded assets cover:
+
+```text
+Original frame data for earlier verification experiments
+ROI annotation source images
+ROI-aligned crops, split metadata, and SFT/eval JSON files
+Selected previously trained LoRA adapters for comparison or warm-start reference
+```
+
+### Base Model to Download
+
+The base VLM is not stored in this repository. On a new machine, download:
+
+```text
+Qwen/Qwen2.5-VL-7B-Instruct
+```
+
+Recommended local location:
+
+```text
+python/models/Qwen2.5-VL-7B-Instruct
+```
+
+The training script now defaults to this repository-local model path. It can also be overridden with:
+
+```bash
+set VLM_MODEL_ID=python/models/Qwen2.5-VL-7B-Instruct
+```
+
+### Training Script Defaults
+
+The training entry point `python/src/train_lora.py` now defaults to:
+
+```text
+Model:
+  python/models/Qwen2.5-VL-7B-Instruct
+
+Training data:
+  python/data/roi_experiment_v1/sft/full_roi_mixed_sft_v1.json
+
+Experiment name:
+  roi_mixed_full_roi_finetune_v1
+```
+
+You can switch experiments without editing the script by setting:
+
+```bash
+set VLM_MODEL_ID=...
+set VLM_DATA_FILE=...
+set VLM_EXPERIMENT_NAME=...
+```

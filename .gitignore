@@ -35,6 +35,28 @@ python/data/*
 !python/data/roi_annotation_input/**
 !python/data/roi_experiment_v1/
 !python/data/roi_experiment_v1/**
+!python/data/*.json
+!python/data/2.3vlm_status_frames/
+!python/data/2.3vlm_status_frames/**
+!python/data/3.14vlm_verification_frames/
+!python/data/3.14vlm_verification_frames/**
+!python/data/3.16test_vlm_verification_frames/
+!python/data/3.16test_vlm_verification_frames/**
+
+!python/output/
+python/output/*
+!python/output/v1_lora_baseline/
+!python/output/v1_lora_baseline/adapter_config.json
+!python/output/v1_lora_baseline/adapter_model.safetensors
+!python/output/v1_lora_baseline/training_args.bin
+!python/output/v3.14_few_shot_verification/
+!python/output/v3.14_few_shot_verification/adapter_config.json
+!python/output/v3.14_few_shot_verification/adapter_model.safetensors
+!python/output/v3.14_few_shot_verification/training_args.bin
+!python/output/v3.15_few_shot_verification/
+!python/output/v3.15_few_shot_verification/adapter_config.json
+!python/output/v3.15_few_shot_verification/adapter_model.safetensors
+!python/output/v3.15_few_shot_verification/training_args.bin
 
 # ====================== VideoAssemblyMonitor (Spring / Gradle 端) ======================
 # 忽略图片中显示的构建和缓存文件夹
