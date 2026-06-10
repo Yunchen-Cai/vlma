@@ -42,6 +42,10 @@ python/data/*
 !python/data/3.14vlm_verification_frames/**
 !python/data/3.16test_vlm_verification_frames/
 !python/data/3.16test_vlm_verification_frames/**
+!python/data/temp_frames_1.26test/
+!python/data/temp_frames_1.26test/**
+!python/data/temp_frames_12.23merged/
+!python/data/temp_frames_12.23merged/**
 
 !python/output/
 python/output/*
