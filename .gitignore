@@ -46,6 +46,8 @@ python/data/*
 !python/data/temp_frames_1.26test/**
 !python/data/temp_frames_12.23merged/
 !python/data/temp_frames_12.23merged/**
+!python/data/tool_test_frames/
+!python/data/tool_test_frames/**
 
 !python/output/
 python/output/*

@@ -8,3 +8,4 @@ python/data/3.14vlm_verification_frames/** filter=lfs diff=lfs merge=lfs -text
 python/data/3.16test_vlm_verification_frames/** filter=lfs diff=lfs merge=lfs -text
 python/data/temp_frames_1.26test/** filter=lfs diff=lfs merge=lfs -text
 python/data/temp_frames_12.23merged/** filter=lfs diff=lfs merge=lfs -text
+python/data/tool_test_frames/** filter=lfs diff=lfs merge=lfs -text
