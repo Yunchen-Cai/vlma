@@ -1,0 +1,143 @@
+{
+  "default_eps_ordering": 0.05,
+  "default_eps_timing": 0.05,
+  "default_complete_threshold": 0.7,
+  "comment": "SOP graph for the gear-pump assembly task (§3.5 of the paper). 15 atomic nodes. tau bounds are nominal cycle-time budgets in seconds; v_gated flags ROI-Verification gating per §3.5.",
+  "nodes": [
+    {
+      "id": "place_mounting_flange",
+      "actions_whitelist": ["place-mountingFlange", "place-mounting-flange", "place-MountingFlange"],
+      "parents": [],
+      "tau_lower_sec": 2.0,
+      "tau_upper_sec": 8.0,
+      "v_gated": true,
+      "part": "Mounting Flange"
+    },
+    {
+      "id": "place_gear_housing",
+      "actions_whitelist": ["place-gearHousing", "place-gear-housing", "place-GearHousing"],
+      "parents": ["place_mounting_flange"],
+      "tau_lower_sec": 2.0,
+      "tau_upper_sec": 8.0,
+      "v_gated": true,
+      "part": "Gear Housing"
+    },
+    {
+      "id": "place_drive_gear",
+      "actions_whitelist": ["place-driveGear", "place-drive-gear", "place-DriveGear"],
+      "parents": ["place_gear_housing"],
+      "tau_lower_sec": 2.0,
+      "tau_upper_sec": 8.0,
+      "v_gated": true,
+      "part": "Drive Gear"
+    },
+    {
+      "id": "place_driven_gear",
+      "actions_whitelist": ["place-drivenGear", "place-driven-gear", "place-DrivenGear"],
+      "parents": ["place_drive_gear"],
+      "tau_lower_sec": 2.0,
+      "tau_upper_sec": 8.0,
+      "v_gated": true,
+      "part": "Driven Gear"
+    },
+    {
+      "id": "install_thrust_block",
+      "actions_whitelist": ["install-thrustBlock", "install-thrust-block", "install-ThrustBlock"],
+      "parents": ["place_driven_gear"],
+      "tau_lower_sec": 2.0,
+      "tau_upper_sec": 8.0,
+      "v_gated": true,
+      "part": "Thrust Block"
+    },
+    {
+      "id": "place_port_end_cover",
+      "actions_whitelist": ["place-portEndCover", "place-port-end-cover", "place-PortEndCover"],
+      "parents": ["install_thrust_block"],
+      "tau_lower_sec": 2.0,
+      "tau_upper_sec": 8.0,
+      "v_gated": true,
+      "part": "Port End Cover"
+    },
+    {
+      "id": "insert_capscrew_1",
+      "actions_whitelist": ["install-capscrew", "place-capscrew", "install-Capscrew"],
+      "parents": ["place_port_end_cover"],
+      "tau_lower_sec": 1.0,
+      "tau_upper_sec": 5.0,
+      "v_gated": false,
+      "part": "Capscrew"
+    },
+    {
+      "id": "insert_capscrew_2",
+      "actions_whitelist": ["install-capscrew", "place-capscrew", "install-Capscrew"],
+      "parents": ["place_port_end_cover"],
+      "tau_lower_sec": 1.0,
+      "tau_upper_sec": 5.0,
+      "v_gated": false,
+      "part": "Capscrew"
+    },
+    {
+      "id": "insert_capscrew_3",
+      "actions_whitelist": ["install-capscrew", "place-capscrew", "install-Capscrew"],
+      "parents": ["place_port_end_cover"],
+      "tau_lower_sec": 1.0,
+      "tau_upper_sec": 5.0,
+      "v_gated": false,
+      "part": "Capscrew"
+    },
+    {
+      "id": "insert_capscrew_4",
+      "actions_whitelist": ["install-capscrew", "place-capscrew", "install-Capscrew"],
+      "parents": ["place_port_end_cover"],
+      "tau_lower_sec": 1.0,
+      "tau_upper_sec": 5.0,
+      "v_gated": false,
+      "part": "Capscrew"
+    },
+    {
+      "id": "tighten_capscrew_1",
+      "actions_whitelist": ["tighten-capscrew", "tighten-Capscrew"],
+      "parents": ["insert_capscrew_1"],
+      "tau_lower_sec": 1.5,
+      "tau_upper_sec": 6.0,
+      "v_gated": true,
+      "part": "Capscrew"
+    },
+    {
+      "id": "tighten_capscrew_2",
+      "actions_whitelist": ["tighten-capscrew", "tighten-Capscrew"],
+      "parents": ["insert_capscrew_2"],
+      "tau_lower_sec": 1.5,
+      "tau_upper_sec": 6.0,
+      "v_gated": true,
+      "part": "Capscrew"
+    },
+    {
+      "id": "tighten_capscrew_3",
+      "actions_whitelist": ["tighten-capscrew", "tighten-Capscrew"],
+      "parents": ["insert_capscrew_3"],
+      "tau_lower_sec": 1.5,
+      "tau_upper_sec": 6.0,
+      "v_gated": true,
+      "part": "Capscrew"
+    },
+    {
+      "id": "tighten_capscrew_4",
+      "actions_whitelist": ["tighten-capscrew", "tighten-Capscrew"],
+      "parents": ["insert_capscrew_4"],
+      "tau_lower_sec": 1.5,
+      "tau_upper_sec": 6.0,
+      "v_gated": true,
+      "part": "Capscrew"
+    },
+    {
+      "id": "final_verification_gate",
+      "actions_whitelist": [],
+      "parents": ["tighten_capscrew_1", "tighten_capscrew_2", "tighten_capscrew_3", "tighten_capscrew_4"],
+      "tau_lower_sec": 0.5,
+      "tau_upper_sec": 3.0,
+      "v_gated": false,
+      "part": null
+    }
+  ]
+}
